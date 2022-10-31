@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.header {
+    height: 100px;
+    background-color: rgb(71, 110, 194);
+    display: flex;
+}
+
+.logo{
+    width: 700px;
+    height: 200px;
+    background-color: none;
+    margin-top: 50px;
+    margin-left: 520px;
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-image: url(2/bobtel-1.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    margin: 100px 0;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(71, 194, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: blueviolet;
+    color:aquamarine;
+    text-align: center;
+    line-height: 40px;
+    margin: 200px auto 0;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: cornflowerblue;
+    color:chocolate;
+    border: 1px solid rgb(0, 255, 191);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.description {
+    color: #000;
+font-size: 50px;
+font-weight: bold;
+}
+
+.description:hover {
+    color: rgb(0, 255, 191);
+
+}
+
+.bg {
+    background-color: deeppink;
+}
+
+
+.bob-2 {
+    background-image: url(2/bobtel-2.jpg);
+}
+
+.bob-3 {
+    background-image: url(2/bobtel-3.jpg);
+}
+
+.bob-4 {
+    background-image: url(2/bobtel-4.jpg);
+}
+
+.bob-5 {
+    background-image: url(2/bobtel-5.jpg);
+}
+
+.bob-6 {
+    background-image: url(2/bobtel-6.jpg);
+}
