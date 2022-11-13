@@ -1,0 +1,20 @@
+<?php
+$name = "Svetlana";
+$age = 2022-1992;
+$day = (2022-1992)*365;
+$skills = [
+	"skill_name" => ["Готовка", "IT", "Photo", "Копирайтинг"],
+    "level" => [65, 70, 80, 75]
+    ];
+$profi = "Chemilak";
+$city = "Russia, Volgograd";
+
+
+$tehno_specialization = "Специалист";
+$tehno = [
+		"tehno_data" => [07.08.2017 - по настоящее время],
+        "tehno_job" => [Написание реестров. Проведение сверок. Ежедекадный отчет. Работа в 1С. Поиск несоответский и потерянных вагонов.]
+        ];
+?>
+
+<?php echo $tehno["tehno_specialization"]; ?>
